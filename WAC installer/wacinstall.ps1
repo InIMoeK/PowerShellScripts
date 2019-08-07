@@ -16,7 +16,7 @@ $start_time = Get-Date
 
 # Download Windows Admin Center installer
 
-wget $url -OutFile $dlpath ;
+Invoke-WebRequest $url -OutFile $dlpath ;
 
 Write-Output "Time taken: $((Get-Date).Subtract($start_time).Seconds) second(s)" ;
 
