@@ -1,4 +1,4 @@
-This little script allows you to https://www.google.com/search?q=automatically&spell=1&sa=X&ved=2ahUKEwiZ_8-o0c_nAhWM2qQKHXbcDAgQkeECKAB6BAgNECo install the Microsoft Windows Admin Center on you Windows machine. This comes in handy when using Hyper-V Server.
+This little script allows you to automatically install the Microsoft Windows Admin Center on you Windows machine. This comes in handy when using Hyper-V Server.
 
 Usage
 
