@@ -28,6 +28,6 @@ msiexec /i $dlpath /qn /L*v log.txt SME_PORT=$serverport SSL_CERTIFICATE_OPTION=
 
 # Add firewall rule
 
-New-NetFirewallRule -DisplayName 'Windows Admin Center (HTTPS-In)' -Name 'Windows Admin Center (HTTPS-In)' -Profile Any -LocalPort $serverport -Protocol TCP -RemoteAddress $remoteip ;
+Set-NetFirewallRule -DisplayName 'SmeInboundOpenException' -LocalPort $serverport -Protocol TCP -RemoteAddress $remoteip ;
 
 Write-Host "Firewall rule created" -ForegroundColor Green
