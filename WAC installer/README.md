@@ -1,13 +1,15 @@
-This little script allows you to automatically install the Microsoft Windows Admin Center on you Windows machine. This comes in handy when using Hyper-V Server.
+# WAC Installer Powershell script
 
-Usage
+This script allows you to automatically install the **Microsoft Windows Admin Center** on your Windows machine. This comes in handy when using Hyper-V Server.
+
+Usage:
 
 1. Download the script to your machine
 
-2. Open a elevated cmd window
+2. Open an elevated cmd window
 
-3. execute the script with : powershell -executionpolicy bypass ".\wacinstall.ps1"
+3. execute the script with: `powershell -executionpolicy bypass ".\wacinstall.ps1"`
 
-The installer allows you to customize the listner port and the remote ip address to firewall WAC.
+The installer allows you to customize the listener port and the remote ip address to firewall WAC.
 
 Have fun!
